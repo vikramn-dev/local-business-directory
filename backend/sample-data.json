@@ -1,0 +1,81 @@
+{
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Mario's Pizza Palace",
+      "category": "restaurant",
+      "subcategory": "italian",
+      "address": "123 Main St, Toronto, ON",
+      "phone": "(416) 555-0123",
+      "website": "https://mariospizza.com",
+      "description": "Authentic Italian pizza made with fresh ingredients",
+      "rating": 4.5,
+      "hours": {
+        "monday": "11:00-22:00",
+        "tuesday": "11:00-22:00",
+        "wednesday": "11:00-22:00",
+        "thursday": "11:00-22:00",
+        "friday": "11:00-23:00",
+        "saturday": "11:00-23:00",
+        "sunday": "12:00-21:00"
+      }
+    },
+    {
+      "id": 2,
+      "name": "TechFix Solutions",
+      "category": "services",
+      "subcategory": "technology",
+      "address": "456 Tech Ave, Toronto, ON",
+      "phone": "(416) 555-0456",
+      "website": "https://techfix.com",
+      "description": "Computer repair and IT support services",
+      "rating": 4.8,
+      "hours": {
+        "monday": "09:00-18:00",
+        "tuesday": "09:00-18:00",
+        "wednesday": "09:00-18:00",
+        "thursday": "09:00-18:00",
+        "friday": "09:00-18:00",
+        "saturday": "10:00-16:00",
+        "sunday": "closed"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Green Leaf Grocery",
+      "category": "retail",
+      "subcategory": "grocery",
+      "address": "789 Market St, Toronto, ON",
+      "phone": "(416) 555-0789",
+      "website": "https://greenleafgrocery.com",
+      "description": "Fresh organic produce and local products",
+      "rating": 4.2,
+      "hours": {
+        "monday": "08:00-21:00",
+        "tuesday": "08:00-21:00",
+        "wednesday": "08:00-21:00",
+        "thursday": "08:00-21:00",
+        "friday": "08:00-21:00",
+        "saturday": "08:00-21:00",
+        "sunday": "09:00-19:00"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "restaurant",
+      "name": "Restaurants",
+      "subcategories": ["italian", "chinese", "indian", "mexican", "canadian"]
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "subcategories": ["technology", "automotive", "healthcare", "education", "legal"]
+    },
+    {
+      "id": "retail",
+      "name": "Retail",
+      "subcategories": ["grocery", "clothing", "electronics", "books", "home"]
+    }
+  ]
+}
